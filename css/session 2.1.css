@@ -1,0 +1,16 @@
+body{
+    background-image: url("../images/Chrysanthemum.jpg");
+}
+
+hi {
+    font-size: 100px;
+    font-family: Arial;
+    font-weight: 400;
+    /*100 200 300 400(normal) 500 600 700(bold) 800 900 (binh thuong)-->*/
+    line-height: 200px
+    text-decoration: none;
+    /*<!--overline, line-through,underline-->*/
+    color: #ff112250;
+    /*<!--rgba(255,17,34,0.5-->*/
+    background-color: #F5F5DC;
+}
