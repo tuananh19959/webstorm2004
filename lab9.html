@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabs</title>
+    <link rel="stylesheet" href="css/lab9.css"/>
+</head>
+<body>
+    <h1>Xac dinh vi tri trong tab</h1>
+    <div class="tabs">
+        <button onmouseenter="opentab1()">Home</button>
+        <button onmouseenter="opentab2()">Profile</button>
+        <button onmouseenter="opentab3()">Messages</button>
+        <button onmouseenter="opentab4()">Settings</button>
+    </div>
+    <div id="Home" class="tabscontent">
+        <h3>Home</h3>
+        <p>This is Home content</p>
+    </div>
+    <div id="Profile" class="tabscontent">
+        <h3>Profile</h3>
+        <p>This is Profile content</p>
+    </div>
+    <div id="Messages" class="tabscontent">
+        <h3>Messages</h3>
+        <p>This is Messages content</p>
+    </div>
+    <div id="Settings" class="tabscontent">
+        <h3>Settings</h3>
+        <p>This is Settings content</p>
+    </div>
+    <script type="text/javascript">
+        function opentab1() {
+            document.getElementById("Home").style.display = "block";
+            document.getElementById("Profile").style.display = "none";
+            document.getElementById("Messages").style.display = "none";
+            document.getElementById("Settings").style.display = "none";
+        }
+        function opentab2() {
+            document.getElementById("Profile").style.display = "block";
+            document.getElementById("Messages").style.display = "none";
+            document.getElementById("Settings").style.display = "none";
+            document.getElementById("Home").style.display = "none";
+        }
+        function opentab3() {
+            document.getElementById("Messages").style.display = "block";
+            document.getElementById("Settings").style.display = "none";
+            document.getElementById("Home").style.display = "none";
+            document.getElementById("Profile").style.display = "none";
+        }
+        function opentab4() {
+            document.getElementById("Settings").style.display = "block";
+            document.getElementById("Home").style.display = "none";
+            document.getElementById("Messages").style.display = "none";
+            document.getElementById("Settings").style.display = "none";
+        }
+    </script>
+</body>
+</html>
