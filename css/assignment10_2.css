@@ -71,7 +71,7 @@
     height: 150px;
     background-color: #ff253a;
     position: absolute;
-    top: calc(50% - 30px);
+    bottom: calc(50% - 30px);
     left: calc(50% - 5px);
     /*transform: rotate(-90deg);*/
     transform-origin: bottom;
