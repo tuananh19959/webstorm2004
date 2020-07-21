@@ -1,0 +1,65 @@
+body{
+    background-color: #f5f5f5 !important;
+    font-size: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+
+.wrap-logo{
+    padding: 23px 0;
+}
+
+.set-nav{
+    float: right;
+}
+
+.set-nav>li{
+    float: right;
+    padding: 25px 0 25px 40px;
+    list-style: none;
+    text-align: right;
+}
+
+.set-nav>li>a{
+    font-weight: 600;
+    color: black;
+}
+
+.wrap-form{
+    margin: 20px 0;
+}
+
+.set-content-right{
+    margin-top: 35px;
+}
+
+.set-content-left>p{
+    margin: 20px 0;
+}
+
+.set-input{
+    margin: 10px 0;
+}
+
+.form-control{
+    padding: 18px !important;
+    border-radius: 0 !important;
+    border: #fff !important;
+}
+
+.set-message>.form-control{
+    padding: 60px 20px !important;
+}
+
+.set-btn{
+    background-color: #10c9c3;
+    border: 0 !important;
+    padding: 10px !important;
+}
+
+.set
